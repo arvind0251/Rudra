@@ -66,6 +66,9 @@ PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org//file/389a372e8ae039320
 PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
 STATS_IMG_URL = "https://graph.org//file/99a8a9c13bb01f9ac7d98.png"
 
+# ✅ Fix: SOUNDCLOUD_IMG_URL variable added
+SOUNDCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+
 def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
